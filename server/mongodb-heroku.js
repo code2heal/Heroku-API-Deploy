@@ -73,6 +73,27 @@ studentDetails.findById(id).then((details)=>{
 });
 
 
+//To delete a Documents
+app.delete('/details/:id', (req, res)=>{
+  // get the id
+  var id = req.params.id;
+
+  //Validate the id
+  if(!ObjectID.isValid(id)){
+    return res.status(404).send(); // Only proceed unless this is executed (return) set the status error to 404 And send and Empty response;
+  }
+    //if Not Deleted
+  studentDetails.findByIdAndRemove(id).then((details)=>{
+    if(!details){
+      return res.status(404).send();
+    }
+    //Else
+    res.send(details);
+  }).catch((e)=>{
+    res.status(400).send();
+  });
+});
+
 app.listen(port, ()=>{
   console.log(`Satrted on Port ${port}`);
 });
