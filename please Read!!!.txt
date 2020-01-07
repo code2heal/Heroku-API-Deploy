@@ -1,0 +1,2 @@
+you can install more than one modules by typing as in:
+[npm i module1 module2 module3 etc --save]

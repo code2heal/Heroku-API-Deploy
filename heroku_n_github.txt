@@ -1,0 +1,1457 @@
+
+C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\server>nodemon resource-queries.js
+  Usage: nodemon [nodemon options] [script.js] [args]
+
+  See "nodemon --help" for more.
+
+
+C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\server>nodemon resource_queries.js
+[nodemon] 1.19.1
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching: *.*
+[nodemon] starting `node resource_queries.js`
+(node:4040) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+App Started On Port 3000
+[nodemon] restarting due to changes...
+[nodemon] starting `node resource_queries.js`
+(node:4292) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+App Started On Port 3000
+^CTerminate batch job (Y/N)? y
+
+C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\server>git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   models/user_course.js
+        modified:   models/user_data.js
+        modified:   server.js
+        deleted:    tests/server.test.js
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../Installing Postman.txt
+        ../Path.txt
+        ../SQL vs NoSQL_1.jpg
+        ../node_modules/
+        ../ok.js
+        ../package-lock.json
+        ../package.json
+        ../playground/mongoose-queries.js
+        ../please Read!!!.txt
+        resource_queries.js
+        tests/user_course.test.js
+        tests/user_data.test.js
+        user_server.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\server>git add server/
+fatal: pathspec 'server/' did not match any files
+
+C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\server>git add server
+fatal: pathspec 'server' did not match any files
+
+C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\server>git add server /
+fatal: /: '/' is outside repository
+
+C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\server> git add help
+fatal: pathspec 'help' did not match any files
+
+C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\server> git add?
+git: 'add?' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\server>git --help
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone     Clone a repository into a new directory
+   init      Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add       Add file contents to the index
+   mv        Move or rename a file, a directory, or a symlink
+   restore   Restore working tree files
+   rm        Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect    Use binary search to find the commit that introduced a bug
+   diff      Show changes between commits, commit and working tree, etc
+   grep      Print lines matching a pattern
+   log       Show commit logs
+   show      Show various types of objects
+   status    Show the working tree status
+
+grow, mark and tweak your common history
+   branch    List, create, or delete branches
+   commit    Record changes to the repository
+   merge     Join two or more development histories together
+   rebase    Reapply commits on top of another base tip
+   reset     Reset current HEAD to the specified state
+   switch    Switch branches
+   tag       Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch     Download objects and refs from another repository
+   pull      Fetch from and integrate with another repository or a local branch
+   push      Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+
+C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\server>cd ..
+
+C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs>git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   server/models/user_course.js
+        modified:   server/models/user_data.js
+        modified:   server/server.js
+        deleted:    server/tests/server.test.js
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Installing Postman.txt
+        Path.txt
+        SQL vs NoSQL_1.jpg
+        node_modules/
+        ok.js
+        package-lock.json
+        package.json
+        playground/mongoose-queries.js
+        please Read!!!.txt
+        server/resource_queries.js
+        server/tests/user_course.test.js
+        server/tests/user_data.test.js
+        server/user_server.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs>git add server/
+
+C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs>git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   server/models/user_course.js
+        modified:   server/models/user_data.js
+        new file:   server/resource_queries.js
+        modified:   server/server.js
+        renamed:    server/tests/server.test.js -> server/tests/user_course.test.js
+        new file:   server/tests/user_data.test.js
+        new file:   server/user_server.js
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Installing Postman.txt
+        Path.txt
+        SQL vs NoSQL_1.jpg
+        node_modules/
+        ok.js
+        package-lock.json
+        package.json
+        playground/mongoose-queries.js
+        please Read!!!.txt
+
+
+C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs>git commit -am "Commit These New Changes"
+[master ec7423c] Commit These New Changes
+ 7 files changed, 298 insertions(+), 50 deletions(-)
+ rewrite server/models/user_data.js (90%)
+ create mode 100644 server/resource_queries.js
+ rename server/tests/{server.test.js => user_course.test.js} (64%)
+ create mode 100644 server/tests/user_data.test.js
+ create mode 100644 server/user_server.js
+
+C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs>git add playground/
+
+C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs>git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   playground/mongoose-queries.js
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Installing Postman.txt
+        Path.txt
+        SQL vs NoSQL_1.jpg
+        node_modules/
+        ok.js
+        package-lock.json
+        package.json
+        please Read!!!.txt
+
+
+C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs>git commit -am "Add These Update"
+[master 75ce56d] Add These Update
+ 1 file changed, 46 insertions(+)
+ create mode 100644 playground/mongoose-queries.js
+
+C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs>git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Installing Postman.txt
+        Path.txt
+        SQL vs NoSQL_1.jpg
+        node_modules/
+        ok.js
+        package-lock.json
+        package.json
+        please Read!!!.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs>cd server/tests
+
+C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\server\tests>npm run test-watch
+
+> crud-db@1.0.0 test-watch C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs
+> nodemon --exec "npm test"
+
+[nodemon] 1.19.2
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching dir(s): *.*
+[nodemon] starting `npm test`
+
+> crud-db@1.0.0 test C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs
+> mocha  server/**/*.test.js
+
+C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\server\tests\resource_queries.test.js:11
+var app = express(); // start the express server
+    ^
+
+SyntaxError: Identifier 'app' has already been declared
+    at Module._compile (internal/modules/cjs/loader.js:721:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:690:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\node_modules\mocha\lib\mocha.js:334:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\node_modules\mocha\lib\mocha.js:331:14)
+    at Mocha.run (C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\node_modules\mocha\lib\mocha.js:811:10)
+    at Object.exports.singleRun (C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\node_modules\mocha\lib\cli\run-helpers.js:108:16)
+    at exports.runMocha (C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\node_modules\mocha\lib\cli\run-helpers.js:142:13)
+    at Object.exports.handler.argv [as handler] (C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\node_modules\mocha\lib\cli\run.js:292:3)
+    at Object.runCommand (C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\node_modules\yargs\lib\command.js:242:26)
+    at Object.parseArgs [as _parseArgs] (C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\node_modules\yargs\yargs.js:1087:28)
+    at Object.parse (C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\node_modules\yargs\yargs.js:566:25)
+    at Object.exports.main (C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\node_modules\mocha\lib\cli\cli.js:68:6)
+    at Object.<anonymous> (C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\node_modules\mocha\bin\mocha:154:29)
+    at Module._compile (internal/modules/cjs/loader.js:776:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:829:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+npm ERR! Test failed.  See above for more details.
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `npm test`
+
+> crud-db@1.0.0 test C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs
+> mocha  server/**/*.test.js
+
+C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\node_modules\yargs\yargs.js:1163
+      else throw err
+           ^
+
+ReferenceError: bodyParser is not defined
+    at Object.<anonymous> (C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\server\tests\resource_queries.test.js:13:9)
+    at Module._compile (internal/modules/cjs/loader.js:776:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:690:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\node_modules\mocha\lib\mocha.js:334:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\node_modules\mocha\lib\mocha.js:331:14)
+    at Mocha.run (C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\node_modules\mocha\lib\mocha.js:811:10)
+    at Object.exports.singleRun (C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\node_modules\mocha\lib\cli\run-helpers.js:108:16)
+    at exports.runMocha (C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\node_modules\mocha\lib\cli\run-helpers.js:142:13)
+    at Object.exports.handler.argv [as handler] (C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\node_modules\mocha\lib\cli\run.js:292:3)
+    at Object.runCommand (C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\node_modules\yargs\lib\command.js:242:26)
+    at Object.parseArgs [as _parseArgs] (C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\node_modules\yargs\yargs.js:1087:28)
+    at Object.parse (C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\node_modules\yargs\yargs.js:566:25)
+    at Object.exports.main (C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\node_modules\mocha\lib\cli\cli.js:68:6)
+    at Object.<anonymous> (C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\node_modules\mocha\bin\mocha:154:29)
+    at Module._compile (internal/modules/cjs/loader.js:776:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:829:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+npm ERR! Test failed.  See above for more details.
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `npm test`
+
+> crud-db@1.0.0 test C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs
+> mocha  server/**/*.test.js
+
+
+
+(node:4692) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+App Started On Port 3000
+  GET /details/:id
+    1) Should Return Expected Details
+
+
+  0 passing (1s)
+  1 failing
+
+  1) GET /details/:id
+       Should Return Expected Details:
+     Error: expected 200 "OK", got 404 "Not Found"
+      at Test._assertStatus (node_modules\supertest\lib\test.js:268:12)
+      at Test._assertFunction (node_modules\supertest\lib\test.js:283:11)
+      at Test.assert (node_modules\supertest\lib\test.js:173:18)
+      at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+      at emitCloseNT (net.js:1618:8)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+
+
+[nodemon] restarting due to changes...
+[nodemon] restarting due to changes...
+[nodemon] restarting due to changes...
+[nodemon] starting `npm test`
+
+> crud-db@1.0.0 test C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs
+> mocha  server/**/*.test.js
+
+
+
+(node:7144) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+App Started On Port 3000
+  GET /details
+    1) Should Get All course Module
+
+  GET /details/:id
+    2) Should Return Expected Details
+
+
+  0 passing (1s)
+  2 failing
+
+  1) GET /details
+       Should Get All course Module:
+     Error: Expected 6 to be 2
+      at assert (node_modules\expect\lib\assert.js:29:9)
+      at Expectation.toBe (node_modules\expect\lib\Expectation.js:66:28)
+      at request.get.expect.expect (server\tests\resource_queries.test.js:57:39)
+      at Test._assertFunction (node_modules\supertest\lib\test.js:283:11)
+      at Test.assert (node_modules\supertest\lib\test.js:173:18)
+      at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+      at emitCloseNT (net.js:1618:8)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+  2) GET /details/:id
+       Should Return Expected Details:
+     Error: expected 200 "OK", got 404 "Not Found"
+      at Test._assertStatus (node_modules\supertest\lib\test.js:268:12)
+      at Test._assertFunction (node_modules\supertest\lib\test.js:283:11)
+      at Test.assert (node_modules\supertest\lib\test.js:173:18)
+      at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+      at emitCloseNT (net.js:1618:8)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+
+
+[nodemon] restarting due to changes...
+[nodemon] restarting due to changes...
+[nodemon] restarting due to changes...
+[nodemon] restarting due to changes...
+[nodemon] starting `npm test`
+
+> crud-db@1.0.0 test C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs
+> mocha  server/**/*.test.js
+
+
+
+(node:4028) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+App Started On Port 3000
+  POST /details
+    √ Should Create a new course Module (133ms)
+    1) should Not Create anything provided we request for bad data
+
+  GET /details
+    √ Should Get All course Module
+
+  GET /details/:id
+    2) Should Return Expected Details
+
+
+  2 passing (1s)
+  2 failing
+
+  1) POST /details
+       should Not Create anything provided we request for bad data:
+     Error: expected 400 "Bad Request", got 200 "OK"
+      at Test._assertStatus (node_modules\supertest\lib\test.js:268:12)
+      at Test._assertFunction (node_modules\supertest\lib\test.js:283:11)
+      at Test.assert (node_modules\supertest\lib\test.js:173:18)
+      at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+      at emitCloseNT (net.js:1618:8)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+  2) GET /details/:id
+       Should Return Expected Details:
+     Error: expected 200 "OK", got 404 "Not Found"
+      at Test._assertStatus (node_modules\supertest\lib\test.js:268:12)
+      at Test._assertFunction (node_modules\supertest\lib\test.js:283:11)
+      at Test.assert (node_modules\supertest\lib\test.js:173:18)
+      at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+      at emitCloseNT (net.js:1618:8)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+
+
+[nodemon] restarting due to changes...
+[nodemon] starting `npm test`
+
+> crud-db@1.0.0 test C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs
+> mocha  server/**/*.test.js
+
+
+
+(node:5320) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+App Started On Port 3000
+  POST /details
+    √ Should Create a new course Module (80ms)
+    1) should Not Create anything provided we request for bad data
+
+  GET /details
+    √ Should Get All course Module
+
+  GET /details/:id
+    2) Should Return Expected Details
+
+
+  2 passing (1s)
+  2 failing
+
+  1) POST /details
+       should Not Create anything provided we request for bad data:
+     Error: expected 400 "Bad Request", got 200 "OK"
+      at Test._assertStatus (node_modules\supertest\lib\test.js:268:12)
+      at Test._assertFunction (node_modules\supertest\lib\test.js:283:11)
+      at Test.assert (node_modules\supertest\lib\test.js:173:18)
+      at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+      at emitCloseNT (net.js:1618:8)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+  2) GET /details/:id
+       Should Return Expected Details:
+     Error: expected 200 "OK", got 404 "Not Found"
+      at Test._assertStatus (node_modules\supertest\lib\test.js:268:12)
+      at Test._assertFunction (node_modules\supertest\lib\test.js:283:11)
+      at Test.assert (node_modules\supertest\lib\test.js:173:18)
+      at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+      at emitCloseNT (net.js:1618:8)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+
+
+[nodemon] restarting due to changes...
+[nodemon] starting `npm test`
+
+> crud-db@1.0.0 test C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs
+> mocha  server/**/*.test.js
+
+
+
+(node:6924) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+App Started On Port 3000
+  POST /details
+    √ Should Create a new course Module (106ms)
+    1) should Not Create anything provided we request for bad data
+
+  GET /details
+    √ Should Get All course Module
+
+  GET /details/:id
+    2) Should Return Expected Details
+
+
+  2 passing (1s)
+  2 failing
+
+  1) POST /details
+       should Not Create anything provided we request for bad data:
+     Error: expected 404 "Not Found", got 200 "OK"
+      at Test._assertStatus (node_modules\supertest\lib\test.js:268:12)
+      at Test._assertFunction (node_modules\supertest\lib\test.js:283:11)
+      at Test.assert (node_modules\supertest\lib\test.js:173:18)
+      at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+      at emitCloseNT (net.js:1618:8)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+  2) GET /details/:id
+       Should Return Expected Details:
+     Error: expected 200 "OK", got 404 "Not Found"
+      at Test._assertStatus (node_modules\supertest\lib\test.js:268:12)
+      at Test._assertFunction (node_modules\supertest\lib\test.js:283:11)
+      at Test.assert (node_modules\supertest\lib\test.js:173:18)
+      at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+      at emitCloseNT (net.js:1618:8)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+
+
+[nodemon] restarting due to changes...
+[nodemon] starting `npm test`
+
+> crud-db@1.0.0 test C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs
+> mocha  server/**/*.test.js
+
+
+
+(node:4036) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+App Started On Port 3000
+  POST /details
+    √ Should Create a new course Module (155ms)
+    1) should Not Create anything provided we request for bad data
+
+  GET /details
+    √ Should Get All course Module
+
+  GET /details/:id
+    2) Should Return Expected Details
+
+
+  2 passing (1s)
+  2 failing
+
+  1) POST /details
+       should Not Create anything provided we request for bad data:
+     Error: expected 400 "Bad Request", got 200 "OK"
+      at Test._assertStatus (node_modules\supertest\lib\test.js:268:12)
+      at Test._assertFunction (node_modules\supertest\lib\test.js:283:11)
+      at Test.assert (node_modules\supertest\lib\test.js:173:18)
+      at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+      at emitCloseNT (net.js:1618:8)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+  2) GET /details/:id
+       Should Return Expected Details:
+     Error: expected 200 "OK", got 404 "Not Found"
+      at Test._assertStatus (node_modules\supertest\lib\test.js:268:12)
+      at Test._assertFunction (node_modules\supertest\lib\test.js:283:11)
+      at Test.assert (node_modules\supertest\lib\test.js:173:18)
+      at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+      at emitCloseNT (net.js:1618:8)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+
+
+[nodemon] restarting due to changes...
+[nodemon] starting `npm test`
+
+> crud-db@1.0.0 test C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs
+> mocha  server/**/*.test.js
+
+
+
+(node:1120) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+App Started On Port 3000
+  POST /details
+    √ Should Create a new course Module (82ms)
+    1) should Not Create anything provided we request for bad data
+
+  GET /details
+(node:1120) UnhandledPromiseRejectionWarning: ReferenceError: detail is not defined
+    at studentDetails.find.then (C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\server\user_server.js:41:15)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+(node:1120) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:1120) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+    2) Should Get All course Module
+
+  GET /details/:id
+    3) Should Return Expected Details
+
+
+  1 passing (3s)
+  3 failing
+
+  1) POST /details
+       should Not Create anything provided we request for bad data:
+     Error: expected 400 "Bad Request", got 200 "OK"
+      at Test._assertStatus (node_modules\supertest\lib\test.js:268:12)
+      at Test._assertFunction (node_modules\supertest\lib\test.js:283:11)
+      at Test.assert (node_modules\supertest\lib\test.js:173:18)
+      at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+      at emitCloseNT (net.js:1618:8)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+  2) GET /details
+       Should Get All course Module:
+     Error: Timeout of 2000ms exceeded. For async tests and hooks, ensure "done()" is called; if returning a Promise, ensure it resolves. (C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\server\tests\resource_queries.test.js)
+
+
+  3) GET /details/:id
+       Should Return Expected Details:
+     Error: expected 200 "OK", got 404 "Not Found"
+      at Test._assertStatus (node_modules\supertest\lib\test.js:268:12)
+      at Test._assertFunction (node_modules\supertest\lib\test.js:283:11)
+      at Test.assert (node_modules\supertest\lib\test.js:173:18)
+      at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+      at emitCloseNT (net.js:1618:8)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+
+
+[nodemon] restarting due to changes...
+[nodemon] starting `npm test`
+
+> crud-db@1.0.0 test C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs
+> mocha  server/**/*.test.js
+
+
+
+(node:6284) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+App Started On Port 3000
+  POST /details
+    √ Should Create a new course Module (81ms)
+    1) should Not Create anything provided we request for bad data
+
+  GET /details
+(node:6284) UnhandledPromiseRejectionWarning: ReferenceError: detail is not defined
+    at studentDetails.find.then (C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\server\user_server.js:41:15)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+(node:6284) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:6284) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+    2) Should Get All course Module
+
+  GET /details/:id
+    3) Should Return Expected Details
+
+
+  1 passing (3s)
+  3 failing
+
+  1) POST /details
+       should Not Create anything provided we request for bad data:
+     Error: expected 400 "Bad Request", got 200 "OK"
+      at Test._assertStatus (node_modules\supertest\lib\test.js:268:12)
+      at Test._assertFunction (node_modules\supertest\lib\test.js:283:11)
+      at Test.assert (node_modules\supertest\lib\test.js:173:18)
+      at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+      at emitCloseNT (net.js:1618:8)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+  2) GET /details
+       Should Get All course Module:
+     Error: Timeout of 2000ms exceeded. For async tests and hooks, ensure "done()" is called; if returning a Promise, ensure it resolves. (C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\server\tests\resource_queries.test.js)
+
+
+  3) GET /details/:id
+       Should Return Expected Details:
+     Error: expected 200 "OK", got 404 "Not Found"
+      at Test._assertStatus (node_modules\supertest\lib\test.js:268:12)
+      at Test._assertFunction (node_modules\supertest\lib\test.js:283:11)
+      at Test.assert (node_modules\supertest\lib\test.js:173:18)
+      at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+      at emitCloseNT (net.js:1618:8)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+
+
+[nodemon] restarting due to changes...
+[nodemon] restarting due to changes...
+[nodemon] starting `npm test`
+
+> crud-db@1.0.0 test C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs
+> mocha  server/**/*.test.js
+
+
+
+(node:3720) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+App Started On Port 3000
+  POST /details
+    √ Should Create a new course Module (81ms)
+    1) should Not Create anything provided we request for bad data
+
+  GET /details
+    √ Should Get All course Module
+
+  GET /details/:id
+    2) Should Return Expected Details
+
+
+  2 passing (1s)
+  2 failing
+
+  1) POST /details
+       should Not Create anything provided we request for bad data:
+     Error: expected 400 "Bad Request", got 200 "OK"
+      at Test._assertStatus (node_modules\supertest\lib\test.js:268:12)
+      at Test._assertFunction (node_modules\supertest\lib\test.js:283:11)
+      at Test.assert (node_modules\supertest\lib\test.js:173:18)
+      at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+      at emitCloseNT (net.js:1618:8)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+  2) GET /details/:id
+       Should Return Expected Details:
+     Error: expected 200 "OK", got 404 "Not Found"
+      at Test._assertStatus (node_modules\supertest\lib\test.js:268:12)
+      at Test._assertFunction (node_modules\supertest\lib\test.js:283:11)
+      at Test.assert (node_modules\supertest\lib\test.js:173:18)
+      at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+      at emitCloseNT (net.js:1618:8)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+
+
+[nodemon] restarting due to changes...
+[nodemon] starting `npm test`
+
+> crud-db@1.0.0 test C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs
+> mocha  server/**/*.test.js
+
+
+
+(node:532) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+App Started On Port 3000
+  POST /details
+    √ Should Create a new course Module (124ms)
+    1) should Not Create anything provided we request for bad data
+
+  GET /details
+    √ Should Get All course Module
+
+  GET /details/:id
+    2) Should Return Expected Details
+
+
+  2 passing (1s)
+  2 failing
+
+  1) POST /details
+       should Not Create anything provided we request for bad data:
+     Error: expected 400 "Bad Request", got 200 "OK"
+      at Test._assertStatus (node_modules\supertest\lib\test.js:268:12)
+      at Test._assertFunction (node_modules\supertest\lib\test.js:283:11)
+      at Test.assert (node_modules\supertest\lib\test.js:173:18)
+      at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+      at emitCloseNT (net.js:1618:8)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+  2) GET /details/:id
+       Should Return Expected Details:
+     Error: expected 200 "OK", got 404 "Not Found"
+      at Test._assertStatus (node_modules\supertest\lib\test.js:268:12)
+      at Test._assertFunction (node_modules\supertest\lib\test.js:283:11)
+      at Test.assert (node_modules\supertest\lib\test.js:173:18)
+      at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+      at emitCloseNT (net.js:1618:8)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+
+
+[nodemon] restarting due to changes...
+[nodemon] starting `npm test`
+
+> crud-db@1.0.0 test C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs
+> mocha  server/**/*.test.js
+
+
+
+(node:5000) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+App Started On Port 3000
+  POST /details
+    √ Should Create a new course Module (81ms)
+    1) should Not Create anything provided we request for bad data
+
+  GET /details
+    √ Should Get All course Module
+
+  GET /details/:id
+    2) Should Return Expected Details
+
+
+  2 passing (1s)
+  2 failing
+
+  1) POST /details
+       should Not Create anything provided we request for bad data:
+     Error: expected 400 "Bad Request", got 200 "OK"
+      at Test._assertStatus (node_modules\supertest\lib\test.js:268:12)
+      at Test._assertFunction (node_modules\supertest\lib\test.js:283:11)
+      at Test.assert (node_modules\supertest\lib\test.js:173:18)
+      at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+      at emitCloseNT (net.js:1618:8)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+  2) GET /details/:id
+       Should Return Expected Details:
+     Error: expected 200 "OK", got 404 "Not Found"
+      at Test._assertStatus (node_modules\supertest\lib\test.js:268:12)
+      at Test._assertFunction (node_modules\supertest\lib\test.js:283:11)
+      at Test.assert (node_modules\supertest\lib\test.js:173:18)
+      at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+      at emitCloseNT (net.js:1618:8)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+
+
+[nodemon] restarting due to changes...
+[nodemon] starting `npm test`
+
+> crud-db@1.0.0 test C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs
+> mocha  server/**/*.test.js
+
+
+
+(node:5568) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+App Started On Port 3000
+  POST /details
+    √ Should Create a new course Module (79ms)
+    1) should Not Create anything provided we request for bad data
+
+  GET /details
+    √ Should Get All course Module
+
+  GET /details/:id
+    2) Should Return Expected Details
+
+
+  2 passing (1s)
+  2 failing
+
+  1) POST /details
+       should Not Create anything provided we request for bad data:
+     Error: expected 400 "Bad Request", got 200 "OK"
+      at Test._assertStatus (node_modules\supertest\lib\test.js:268:12)
+      at Test._assertFunction (node_modules\supertest\lib\test.js:283:11)
+      at Test.assert (node_modules\supertest\lib\test.js:173:18)
+      at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+      at emitCloseNT (net.js:1618:8)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+  2) GET /details/:id
+       Should Return Expected Details:
+     Error: expected 200 "OK", got 404 "Not Found"
+      at Test._assertStatus (node_modules\supertest\lib\test.js:268:12)
+      at Test._assertFunction (node_modules\supertest\lib\test.js:283:11)
+      at Test.assert (node_modules\supertest\lib\test.js:173:18)
+      at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+      at emitCloseNT (net.js:1618:8)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+
+
+[nodemon] restarting due to changes...
+[nodemon] restarting due to changes...
+[nodemon] starting `npm test`
+
+> crud-db@1.0.0 test C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs
+> mocha  server/**/*.test.js
+
+C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\server\tests\resource_queries.test.js:132
+});
+^
+
+SyntaxError: Unexpected token }
+    at Module._compile (internal/modules/cjs/loader.js:721:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:690:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\node_modules\mocha\lib\mocha.js:334:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\node_modules\mocha\lib\mocha.js:331:14)
+    at Mocha.run (C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\node_modules\mocha\lib\mocha.js:811:10)
+    at Object.exports.singleRun (C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\node_modules\mocha\lib\cli\run-helpers.js:108:16)
+    at exports.runMocha (C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\node_modules\mocha\lib\cli\run-helpers.js:142:13)
+    at Object.exports.handler.argv [as handler] (C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\node_modules\mocha\lib\cli\run.js:292:3)
+    at Object.runCommand (C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\node_modules\yargs\lib\command.js:242:26)
+    at Object.parseArgs [as _parseArgs] (C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\node_modules\yargs\yargs.js:1087:28)
+    at Object.parse (C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\node_modules\yargs\yargs.js:566:25)
+    at Object.exports.main (C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\node_modules\mocha\lib\cli\cli.js:68:6)
+    at Object.<anonymous> (C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\node_modules\mocha\bin\mocha:154:29)
+    at Module._compile (internal/modules/cjs/loader.js:776:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:829:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+npm ERR! Test failed.  See above for more details.
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `npm test`
+[nodemon] restarting due to changes...
+[nodemon] starting `npm test`
+
+> crud-db@1.0.0 test C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs
+> mocha  server/**/*.test.js
+
+
+
+(node:6828) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+App Started On Port 3000
+  √ should return 404 if details Not Found (53ms)
+  √ should return 404 for non-object ids
+  POST /details
+    √ Should Create a new course Module (57ms)
+    1) should Not Create anything provided we request for bad data
+
+  GET /details
+    √ Should Get All course Module
+
+  GET /details/:id
+    2) Should Return Expected Details
+
+
+  4 passing (1s)
+  2 failing
+
+  1) POST /details
+       should Not Create anything provided we request for bad data:
+     Error: expected 400 "Bad Request", got 200 "OK"
+      at Test._assertStatus (node_modules\supertest\lib\test.js:268:12)
+      at Test._assertFunction (node_modules\supertest\lib\test.js:283:11)
+      at Test.assert (node_modules\supertest\lib\test.js:173:18)
+      at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+      at emitCloseNT (net.js:1618:8)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+  2) GET /details/:id
+       Should Return Expected Details:
+     Error: expected 200 "OK", got 404 "Not Found"
+      at Test._assertStatus (node_modules\supertest\lib\test.js:268:12)
+      at Test._assertFunction (node_modules\supertest\lib\test.js:283:11)
+      at Test.assert (node_modules\supertest\lib\test.js:173:18)
+      at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+      at emitCloseNT (net.js:1618:8)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+
+
+[nodemon] restarting due to changes...
+[nodemon] restarting due to changes...
+[nodemon] starting `npm test`
+
+> crud-db@1.0.0 test C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs
+> mocha  server/**/*.test.js
+
+C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\server\tests\resource_queries.test.js:110
+      expect(res.body.{details}).toBe(details[0]);
+                      ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:721:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:690:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\node_modules\mocha\lib\mocha.js:334:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\node_modules\mocha\lib\mocha.js:331:14)
+    at Mocha.run (C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\node_modules\mocha\lib\mocha.js:811:10)
+    at Object.exports.singleRun (C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\node_modules\mocha\lib\cli\run-helpers.js:108:16)
+    at exports.runMocha (C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\node_modules\mocha\lib\cli\run-helpers.js:142:13)
+    at Object.exports.handler.argv [as handler] (C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\node_modules\mocha\lib\cli\run.js:292:3)
+    at Object.runCommand (C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\node_modules\yargs\lib\command.js:242:26)
+    at Object.parseArgs [as _parseArgs] (C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\node_modules\yargs\yargs.js:1087:28)
+    at Object.parse (C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\node_modules\yargs\yargs.js:566:25)
+    at Object.exports.main (C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\node_modules\mocha\lib\cli\cli.js:68:6)
+    at Object.<anonymous> (C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\node_modules\mocha\bin\mocha:154:29)
+    at Module._compile (internal/modules/cjs/loader.js:776:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:829:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+npm ERR! Test failed.  See above for more details.
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `npm test`
+
+> crud-db@1.0.0 test C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs
+> mocha  server/**/*.test.js
+
+
+
+(node:4744) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+App Started On Port 3000
+  √ should return 404 if details Not Found (55ms)
+  √ should return 404 for non-object ids
+  POST /details
+    √ Should Create a new course Module (60ms)
+    1) should Not Create anything provided we request for bad data
+
+  GET /details
+    √ Should Get All course Module
+
+  GET /details/:id
+    2) Should Return Expected Details
+
+
+  4 passing (1s)
+  2 failing
+
+  1) POST /details
+       should Not Create anything provided we request for bad data:
+     Error: expected 400 "Bad Request", got 200 "OK"
+      at Test._assertStatus (node_modules\supertest\lib\test.js:268:12)
+      at Test._assertFunction (node_modules\supertest\lib\test.js:283:11)
+      at Test.assert (node_modules\supertest\lib\test.js:173:18)
+      at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+      at emitCloseNT (net.js:1618:8)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+  2) GET /details/:id
+       Should Return Expected Details:
+     Error: expected 200 "OK", got 404 "Not Found"
+      at Test._assertStatus (node_modules\supertest\lib\test.js:268:12)
+      at Test._assertFunction (node_modules\supertest\lib\test.js:283:11)
+      at Test.assert (node_modules\supertest\lib\test.js:173:18)
+      at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+      at emitCloseNT (net.js:1618:8)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+
+
+[nodemon] restarting due to changes...
+[nodemon] starting `npm test`
+
+> crud-db@1.0.0 test C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs
+> mocha  server/**/*.test.js
+
+
+
+(node:4532) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+App Started On Port 3000
+  √ should return 404 if details Not Found (55ms)
+  √ should return 404 for non-object ids
+  POST /details
+    √ Should Create a new course Module (58ms)
+    1) should Not Create anything provided we request for bad data
+
+  GET /details
+    √ Should Get All course Module
+
+  GET /details/:id
+    2) Should Return Expected Details
+
+
+  4 passing (1s)
+  2 failing
+
+  1) POST /details
+       should Not Create anything provided we request for bad data:
+     Error: expected 400 "Bad Request", got 200 "OK"
+      at Test._assertStatus (node_modules\supertest\lib\test.js:268:12)
+      at Test._assertFunction (node_modules\supertest\lib\test.js:283:11)
+      at Test.assert (node_modules\supertest\lib\test.js:173:18)
+      at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+      at emitCloseNT (net.js:1618:8)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+  2) GET /details/:id
+       Should Return Expected Details:
+     Error: expected 200 "OK", got 404 "Not Found"
+      at Test._assertStatus (node_modules\supertest\lib\test.js:268:12)
+      at Test._assertFunction (node_modules\supertest\lib\test.js:283:11)
+      at Test.assert (node_modules\supertest\lib\test.js:173:18)
+      at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+      at emitCloseNT (net.js:1618:8)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+
+
+Terminate batch job (Y/N)?
+Terminate batch job (Y/N)? y
+
+C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\server\tests>cd ..
+
+C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\server>cd ..
+
+C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs>git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   server/tests/user_course.test.js
+        modified:   server/tests/user_data.test.js
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Installing Postman.txt
+        Path.txt
+        SQL vs NoSQL_1.jpg
+        node_modules/
+        ok.js
+        package-lock.json
+        package.json
+        please Read!!!.txt
+        server/tests/resource_queries.test.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs>git add server/
+
+C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs>git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   server/tests/resource_queries.test.js
+        modified:   server/tests/user_course.test.js
+        modified:   server/tests/user_data.test.js
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Installing Postman.txt
+        Path.txt
+        SQL vs NoSQL_1.jpg
+        node_modules/
+        ok.js
+        package-lock.json
+        package.json
+        please Read!!!.txt
+
+
+C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs>git commit -am "Commit New Changes"
+[master 41083e8] Commit New Changes
+ 3 files changed, 224 insertions(+), 93 deletions(-)
+ create mode 100644 server/tests/resource_queries.test.js
+ rewrite server/tests/user_course.test.js (100%)
+
+C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs>git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Installing Postman.txt
+        Path.txt
+        SQL vs NoSQL_1.jpg
+        node_modules/
+        ok.js
+        package-lock.json
+        package.json
+        please Read!!!.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs>cd server/tests
+
+C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\server\tests>npm run test-watch
+
+> crud-db@1.0.0 test-watch C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs
+> nodemon --exec "npm test"
+
+[nodemon] 1.19.2
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching dir(s): *.*
+[nodemon] starting `npm test`
+
+> crud-db@1.0.0 test C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs
+> mocha  server/**/*.test.js
+
+
+
+(node:6028) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+App Started On Port 3000
+  √ should return 404 if details Not Found (54ms)
+  √ should return 404 for non-object ids
+  POST /details
+    √ Should Create a new course Module (56ms)
+    1) should Not Create anything provided we request for bad data
+
+  GET /details
+    √ Should Get All course Module
+
+  GET /details/:id
+    2) Should Return Expected Details
+
+
+  4 passing (1s)
+  2 failing
+
+  1) POST /details
+       should Not Create anything provided we request for bad data:
+     Error: expected 400 "Bad Request", got 200 "OK"
+      at Test._assertStatus (node_modules\supertest\lib\test.js:268:12)
+      at Test._assertFunction (node_modules\supertest\lib\test.js:283:11)
+      at Test.assert (node_modules\supertest\lib\test.js:173:18)
+      at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+      at emitCloseNT (net.js:1618:8)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+  2) GET /details/:id
+       Should Return Expected Details:
+     Error: expected 200 "OK", got 404 "Not Found"
+      at Test._assertStatus (node_modules\supertest\lib\test.js:268:12)
+      at Test._assertFunction (node_modules\supertest\lib\test.js:283:11)
+      at Test.assert (node_modules\supertest\lib\test.js:173:18)
+      at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+      at emitCloseNT (net.js:1618:8)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+
+
+[nodemon] restarting due to changes...
+[nodemon] restarting due to changes...
+[nodemon] starting `npm test`
+
+> crud-db@1.0.0 test C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs
+> mocha  server/**/*.test.js
+
+
+
+(node:3568) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+App Started On Port 3000
+  √ should return 404 if details Not Found (104ms)
+  √ should return 404 for non-object ids
+  POST /details
+    √ Should Create a new course Module (59ms)
+    1) should Not Create anything provided we request for bad data
+
+  GET /details
+    √ Should Get All course Module
+
+  GET /details/:id
+    2) Should Return Expected Details
+
+
+  4 passing (2s)
+  2 failing
+
+  1) POST /details
+       should Not Create anything provided we request for bad data:
+     Error: expected 400 "Bad Request", got 200 "OK"
+      at Test._assertStatus (node_modules\supertest\lib\test.js:268:12)
+      at Test._assertFunction (node_modules\supertest\lib\test.js:283:11)
+      at Test.assert (node_modules\supertest\lib\test.js:173:18)
+      at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+      at emitCloseNT (net.js:1618:8)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+  2) GET /details/:id
+       Should Return Expected Details:
+     Error: expected 200 "OK", got 404 "Not Found"
+      at Test._assertStatus (node_modules\supertest\lib\test.js:268:12)
+      at Test._assertFunction (node_modules\supertest\lib\test.js:283:11)
+      at Test.assert (node_modules\supertest\lib\test.js:173:18)
+      at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+      at emitCloseNT (net.js:1618:8)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+
+
+[nodemon] restarting due to changes...
+[nodemon] restarting due to changes...
+[nodemon] starting `npm test`
+
+> crud-db@1.0.0 test C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs
+> mocha  server/**/*.test.js
+
+
+
+(node:5576) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+App Started On Port 3000
+  √ should return 404 if details Not Found (54ms)
+  √ should return 404 for non-object ids
+  POST /details
+    √ Should Create a new course Module (64ms)
+    1) should Not Create anything provided we request for bad data
+
+  GET /details
+    √ Should Get All course Module
+
+  GET /details/:id
+    2) Should Return Expected Details
+
+
+  4 passing (1s)
+  2 failing
+
+  1) POST /details
+       should Not Create anything provided we request for bad data:
+     Error: expected 400 "Bad Request", got 200 "OK"
+      at Test._assertStatus (node_modules\supertest\lib\test.js:268:12)
+      at Test._assertFunction (node_modules\supertest\lib\test.js:283:11)
+      at Test.assert (node_modules\supertest\lib\test.js:173:18)
+      at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+      at emitCloseNT (net.js:1618:8)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+  2) GET /details/:id
+       Should Return Expected Details:
+     Error: expected 200 "OK", got 404 "Not Found"
+      at Test._assertStatus (node_modules\supertest\lib\test.js:268:12)
+      at Test._assertFunction (node_modules\supertest\lib\test.js:283:11)
+      at Test.assert (node_modules\supertest\lib\test.js:173:18)
+      at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+      at emitCloseNT (net.js:1618:8)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+
+
+Terminate batch job (Y/N)? Terminate batch job (Y/N)?
+Terminate batch job (Y/N)?
+Terminate batch job (Y/N)? y
+
+C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\server\tests>node -v
+v10.16.0
+
+C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\server\tests>cd ..
+
+C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs\server>cd ..
+
+C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs>heroku create
+Creating app... !
+ !    Invalid credentials provided.
+heroku: Press any key to open up the browser to login or q to exit:
+Opening browser to https://cli-auth.heroku.com/auth/browser/90801da2-dd81-4a5c-946b-e633a23724c8
+Logging in... done
+Logged in as visitamt@gmail.com
+Creating app... done, ⬢ radiant-castle-51067
+https://radiant-castle-51067.herokuapp.com/ | https://git.heroku.com/radiant-castle-51067.git
+
+C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs>heroku addons:create mongolab:sandbox
+ »   Warning: heroku update available from 7.29.0 to 7.35.0.
+Creating mongolab:sandbox on ⬢ radiant-castle-51067... !
+ !    Please verify your account to install this add-on plan (please enter a credit card) For more information, see https://devcenter.heroku.com/categories/billing
+ !    Verify now at https://heroku.com/verify
+
+C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs>heroku config
+ »   Warning: heroku update available from 7.29.0 to 7.35.0.
+=== radiant-castle-51067 Config Vars
+
+
+C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs>git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Installing Postman.txt
+        Path.txt
+        SQL vs NoSQL_1.jpg
+        heroku with mongodb.txt
+        node_modules/
+        ok.js
+        package-lock.json
+        package.json
+        please Read!!!.txt
+        server/db/mongoose_connect_local_or_heroku.js
+        server/mongodb-heroku.js
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs>git add server/
+
+C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs>git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   server/db/mongoose_connect_local_or_heroku.js
+        new file:   server/mongodb-heroku.js
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Installing Postman.txt
+        Path.txt
+        SQL vs NoSQL_1.jpg
+        heroku with mongodb.txt
+        node_modules/
+        ok.js
+        package-lock.json
+        package.json
+        please Read!!!.txt
+
+
+C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs>git commit -am "Add these to previous commit"
+[master a712580] Add these to previous commit
+ 2 files changed, 92 insertions(+)
+ create mode 100644 server/db/mongoose_connect_local_or_heroku.js
+ create mode 100644 server/mongodb-heroku.js
+
+C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs>git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+
+C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs>git remote add origin https://github.com/code2heal/REST-APIs-PROJECTS.git
+
+C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs>git push -u origin master
+Enumerating objects: 63, done.
+Counting objects: 100% (63/63), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (58/58), done.
+Writing objects: 100% (63/63), 46.15 KiB | 1.05 MiB/s, done.
+Total 63 (delta 23), reused 0 (delta 0)
+remote: Resolving deltas: 100% (23/23), done.
+To https://github.com/code2heal/REST-APIs-PROJECTS.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs>git push heroku master
+Enumerating objects: 63, done.
+Counting objects: 100% (63/63), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (58/58), done.
+Writing objects: 100% (63/63), 46.15 KiB | 1.03 MiB/s, done.
+Total 63 (delta 23), reused 0 (delta 0)
+remote: Compressing source files... done.
+remote: Building source:
+remote:
+remote:  !     No default language could be detected for this app.
+remote:                         HINT: This occurs when Heroku cannot detect the buildpack to use for this application automatically.
+remote:                         See https://devcenter.heroku.com/articles/buildpacks
+remote:
+remote:  !     Push failed
+remote: Verifying deploy...
+remote:
+remote: !       Push rejected to radiant-castle-51067.
+remote:
+To https://git.heroku.com/radiant-castle-51067.git
+ ! [remote rejected] master -> master (pre-receive hook declined)
+error: failed to push some refs to 'https://git.heroku.com/radiant-castle-51067.git'
+
+C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs>heroku open
+ »   Warning: heroku update available from 7.29.0 to 7.35.0.
+ !    ENOTFOUND: getaddrinfo ENOTFOUND api.heroku.com api.heroku.com:443
+
+C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs>heroku logs
+ »   Warning: heroku update available from 7.29.0 to 7.35.0.
+ !    ENOTFOUND: getaddrinfo ENOTFOUND api.heroku.com api.heroku.com:443
+
+C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs>

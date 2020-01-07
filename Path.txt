@@ -1,0 +1,1682 @@
+
+C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\playground>node mongodb_connect.js
+(node:3272) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Connected Sucessfully
+[
+  {
+    "assignment": "Go to Market",
+    "Date": "20-10-2019",
+    "time": "1300:GMT",
+    "_id": "5d9bb1b18fd67b0cc86df712"
+  }
+]
+[
+  {
+    "name": "Math Fred",
+    "age": 25,
+    "email": "yandex@hotmail.com",
+    "phone": 2348062623523,
+    "Address": "No 12 olosasa Compound omoda Ilorin",
+    "_id": "5d9bb1b18fd67b0cc86df713"
+  }
+]
+
+C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\playground>node mongodb_connect.js
+(node:1928) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Connected Sucessfully
+[
+  {
+    "assignment": "Go to Market",
+    "Date": "20-10-2019",
+    "time": "1300:GMT",
+    "_id": "5d9bb278cf4df60788744dcd"
+  }
+]
+[
+  {
+    "name": "Muhammad Jamiu",
+    "age": 25,
+    "email": "muhjamo@hotmail.com",
+    "phone": "+2348076543523",
+    "Address": "No 45 Akerebiata Off sobi Road Ilorin",
+    "_id": "5d9bb278cf4df60788744dce"
+  }
+]
+
+C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\playground>
+
+
+
+C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\playground>node mongodb-find.js
+(node:4148) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Connected Sucessfully
+todos
+[
+  {
+    "_id": "5d8ad9b88702a7133cceb5ad",
+    "text": "something todo",
+    "completed": false
+  },
+  {
+    "_id": "5d8ad9d58d2bf90680a6e95f",
+    "text": "something todo",
+    "completed": false
+  },
+  {
+    "_id": "5d8adaa4077d8716dcb2d4a4",
+    "text": "something todo",
+    "completed": false
+  },
+  {
+    "_id": "5d8adb51e0820a17280cf083",
+    "text": "something todo",
+    "completed": false
+  },
+  {
+    "_id": "5d8adbab2135fc14d4bafc7f",
+    "text": "something todo",
+    "completed": false
+  },
+  {
+    "_id": "5d8ae4e72879c90bc866f8c5",
+    "text": "something todo",
+    "completed": false
+  },
+  {
+    "_id": "5d9bb1b18fd67b0cc86df712",
+    "assignment": "Go to Market",
+    "Date": "20-10-2019",
+    "time": "1300:GMT"
+  },
+  {
+    "_id": "5d9bb278cf4df60788744dcd",
+    "assignment": "Go to Market",
+    "Date": "20-10-2019",
+    "time": "1300:GMT"
+  }
+]
+TestDb
+[
+  {
+    "_id": "5d9b9bda7f9f1a3f80a10fa8",
+    "greetings": "hello World"
+  }
+]
+
+C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\playground>node mongodb-find.js
+(node:4448) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Connected Sucessfully
+todos
+[
+  {
+    "_id": "5d8ad9b88702a7133cceb5ad",
+    "text": "something todo",
+    "completed": false
+  },
+  {
+    "_id": "5d8ad9d58d2bf90680a6e95f",
+    "text": "something todo",
+    "completed": false
+  },
+  {
+    "_id": "5d8adaa4077d8716dcb2d4a4",
+    "text": "something todo",
+    "completed": false
+  },
+  {
+    "_id": "5d8adb51e0820a17280cf083",
+    "text": "something todo",
+    "completed": false
+  },
+  {
+    "_id": "5d8adbab2135fc14d4bafc7f",
+    "text": "something todo",
+    "completed": false
+  },
+  {
+    "_id": "5d8ae4e72879c90bc866f8c5",
+    "text": "something todo",
+    "completed": false
+  },
+  {
+    "_id": "5d9bb1b18fd67b0cc86df712",
+    "assignment": "Go to Market",
+    "Date": "20-10-2019",
+    "time": "1300:GMT"
+  },
+  {
+    "_id": "5d9bb278cf4df60788744dcd",
+    "assignment": "Go to Market",
+    "Date": "20-10-2019",
+    "time": "1300:GMT"
+  }
+]
+users
+[]
+TestDb
+[
+  {
+    "_id": "5d9b9bda7f9f1a3f80a10fa8",
+    "greetings": "hello World"
+  }
+]
+
+C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\playground>node mongodb-find.js
+(node:3020) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Connected Sucessfully
+todos
+[
+  {
+    "_id": "5d8ad9b88702a7133cceb5ad",
+    "text": "something todo",
+    "completed": false
+  },
+  {
+    "_id": "5d8ad9d58d2bf90680a6e95f",
+    "text": "something todo",
+    "completed": false
+  },
+  {
+    "_id": "5d8adaa4077d8716dcb2d4a4",
+    "text": "something todo",
+    "completed": false
+  },
+  {
+    "_id": "5d8adb51e0820a17280cf083",
+    "text": "something todo",
+    "completed": false
+  },
+  {
+    "_id": "5d8adbab2135fc14d4bafc7f",
+    "text": "something todo",
+    "completed": false
+  },
+  {
+    "_id": "5d8ae4e72879c90bc866f8c5",
+    "text": "something todo",
+    "completed": false
+  },
+  {
+    "_id": "5d9bb1b18fd67b0cc86df712",
+    "assignment": "Go to Market",
+    "Date": "20-10-2019",
+    "time": "1300:GMT"
+  },
+  {
+    "_id": "5d9bb278cf4df60788744dcd",
+    "assignment": "Go to Market",
+    "Date": "20-10-2019",
+    "time": "1300:GMT"
+  }
+]
+users
+[
+  {
+    "_id": "5d9bb1b18fd67b0cc86df713",
+    "name": "Math Fred",
+    "age": 25,
+    "email": "yandex@hotmail.com",
+    "phone": 2348062623523,
+    "Address": "No 12 olosasa Compound omoda Ilorin"
+  }
+]
+TestDb
+[
+  {
+    "_id": "5d9b9bda7f9f1a3f80a10fa8",
+    "greetings": "hello World"
+  }
+]
+
+C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\playground>node mongodb-find.js
+C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\playground\mongodb-find.js:38
+db.collection('users').find(id: new ObjectId("5d8adb51e0820a17280cf084")).toArray().then((docs) =>{
+                            ^^
+
+SyntaxError: missing ) after argument list
+    at Module._compile (internal/modules/cjs/loader.js:721:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:829:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+
+C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\playground>node mongodb-find.js
+(node:4508) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Connected Sucessfully
+todos
+[
+  {
+    "_id": "5d8ad9b88702a7133cceb5ad",
+    "text": "something todo",
+    "completed": false
+  },
+  {
+    "_id": "5d8ad9d58d2bf90680a6e95f",
+    "text": "something todo",
+    "completed": false
+  },
+  {
+    "_id": "5d8adaa4077d8716dcb2d4a4",
+    "text": "something todo",
+    "completed": false
+  },
+  {
+    "_id": "5d8adb51e0820a17280cf083",
+    "text": "something todo",
+    "completed": false
+  },
+  {
+    "_id": "5d8adbab2135fc14d4bafc7f",
+    "text": "something todo",
+    "completed": false
+  },
+  {
+    "_id": "5d8ae4e72879c90bc866f8c5",
+    "text": "something todo",
+    "completed": false
+  },
+  {
+    "_id": "5d9bb1b18fd67b0cc86df712",
+    "assignment": "Go to Market",
+    "Date": "20-10-2019",
+    "time": "1300:GMT"
+  },
+  {
+    "_id": "5d9bb278cf4df60788744dcd",
+    "assignment": "Go to Market",
+    "Date": "20-10-2019",
+    "time": "1300:GMT"
+  }
+]
+users
+[
+  {
+    "_id": "5d9bb1b18fd67b0cc86df713",
+    "name": "Math Fred",
+    "age": 25,
+    "email": "yandex@hotmail.com",
+    "phone": 2348062623523,
+    "Address": "No 12 olosasa Compound omoda Ilorin"
+  }
+]
+users
+[]
+TestDb
+[
+  {
+    "_id": "5d9b9bda7f9f1a3f80a10fa8",
+    "greetings": "hello World"
+  }
+]
+
+C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\playground>node mongodb-find.js
+(node:5040) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Connected Sucessfully
+todos
+[
+  {
+    "_id": "5d8ad9b88702a7133cceb5ad",
+    "text": "something todo",
+    "completed": false
+  },
+  {
+    "_id": "5d8ad9d58d2bf90680a6e95f",
+    "text": "something todo",
+    "completed": false
+  },
+  {
+    "_id": "5d8adaa4077d8716dcb2d4a4",
+    "text": "something todo",
+    "completed": false
+  },
+  {
+    "_id": "5d8adb51e0820a17280cf083",
+    "text": "something todo",
+    "completed": false
+  },
+  {
+    "_id": "5d8adbab2135fc14d4bafc7f",
+    "text": "something todo",
+    "completed": false
+  },
+  {
+    "_id": "5d8ae4e72879c90bc866f8c5",
+    "text": "something todo",
+    "completed": false
+  },
+  {
+    "_id": "5d9bb1b18fd67b0cc86df712",
+    "assignment": "Go to Market",
+    "Date": "20-10-2019",
+    "time": "1300:GMT"
+  },
+  {
+    "_id": "5d9bb278cf4df60788744dcd",
+    "assignment": "Go to Market",
+    "Date": "20-10-2019",
+    "time": "1300:GMT"
+  }
+]
+users
+[
+  {
+    "_id": "5d9bb1b18fd67b0cc86df713",
+    "name": "Math Fred",
+    "age": 25,
+    "email": "yandex@hotmail.com",
+    "phone": 2348062623523,
+    "Address": "No 12 olosasa Compound omoda Ilorin"
+  }
+]
+users
+[
+  {
+    "_id": "5d8adb51e0820a17280cf084",
+    "name": "Abdul Malik",
+    "age": 25,
+    "location": "No 12 Owode Close Oloje ilorin"
+  }
+]
+TestDb
+[
+  {
+    "_id": "5d9b9bda7f9f1a3f80a10fa8",
+    "greetings": "hello World"
+  }
+]
+
+C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\playground>node mongodb-find.js
+(node:2488) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Connected Sucessfully
+todos
+[
+  {
+    "_id": "5d8ad9b88702a7133cceb5ad",
+    "text": "something todo",
+    "completed": false
+  },
+  {
+    "_id": "5d8ad9d58d2bf90680a6e95f",
+    "text": "something todo",
+    "completed": false
+  },
+  {
+    "_id": "5d8adaa4077d8716dcb2d4a4",
+    "text": "something todo",
+    "completed": false
+  },
+  {
+    "_id": "5d8adb51e0820a17280cf083",
+    "text": "something todo",
+    "completed": false
+  },
+  {
+    "_id": "5d8adbab2135fc14d4bafc7f",
+    "text": "something todo",
+    "completed": false
+  },
+  {
+    "_id": "5d8ae4e72879c90bc866f8c5",
+    "text": "something todo",
+    "completed": false
+  },
+  {
+    "_id": "5d9bb1b18fd67b0cc86df712",
+    "assignment": "Go to Market",
+    "Date": "20-10-2019",
+    "time": "1300:GMT"
+  },
+  {
+    "_id": "5d9bb278cf4df60788744dcd",
+    "assignment": "Go to Market",
+    "Date": "20-10-2019",
+    "time": "1300:GMT"
+  }
+]
+users
+[
+  {
+    "_id": "5d9bb1b18fd67b0cc86df713",
+    "name": "Math Fred",
+    "age": 25,
+    "email": "yandex@hotmail.com",
+    "phone": 2348062623523,
+    "Address": "No 12 olosasa Compound omoda Ilorin"
+  }
+]
+users count: 7
+users
+[
+  {
+    "_id": "5d8adb51e0820a17280cf084",
+    "name": "Abdul Malik",
+    "age": 25,
+    "location": "No 12 Owode Close Oloje ilorin"
+  }
+]
+TestDb
+[
+  {
+    "_id": "5d9b9bda7f9f1a3f80a10fa8",
+    "greetings": "hello World"
+  }
+]
+
+C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\playground>node mongodb-find.js
+(node:2204) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Connected Sucessfully
+ALL Users in The user Collection
+todos
+[
+  {
+    "_id": "5d8ad9b88702a7133cceb5ad",
+    "text": "something todo",
+    "completed": false
+  },
+  {
+    "_id": "5d8ad9d58d2bf90680a6e95f",
+    "text": "something todo",
+    "completed": false
+  },
+  {
+    "_id": "5d8adaa4077d8716dcb2d4a4",
+    "text": "something todo",
+    "completed": false
+  },
+  {
+    "_id": "5d8adb51e0820a17280cf083",
+    "text": "something todo",
+    "completed": false
+  },
+  {
+    "_id": "5d8adbab2135fc14d4bafc7f",
+    "text": "something todo",
+    "completed": false
+  },
+  {
+    "_id": "5d8ae4e72879c90bc866f8c5",
+    "text": "something todo",
+    "completed": false
+  },
+  {
+    "_id": "5d9bb1b18fd67b0cc86df712",
+    "assignment": "Go to Market",
+    "Date": "20-10-2019",
+    "time": "1300:GMT"
+  },
+  {
+    "_id": "5d9bb278cf4df60788744dcd",
+    "assignment": "Go to Market",
+    "Date": "20-10-2019",
+    "time": "1300:GMT"
+  }
+]
+users
+[
+  {
+    "_id": "5d9bb1b18fd67b0cc86df713",
+    "name": "Math Fred",
+    "age": 25,
+    "email": "yandex@hotmail.com",
+    "phone": 2348062623523,
+    "Address": "No 12 olosasa Compound omoda Ilorin"
+  }
+]
+users
+[
+  {
+    "_id": "5d8adb51e0820a17280cf084",
+    "name": "Abdul Malik",
+    "age": 25,
+    "location": "No 12 Owode Close Oloje ilorin"
+  }
+]
+users count: 7
+TestDb
+[
+  {
+    "_id": "5d9b9bda7f9f1a3f80a10fa8",
+    "greetings": "hello World"
+  }
+]
+
+C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\playground>
+
+
+C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\playground>node mongodb-read.js
+(node:3892) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Connected Sucessfully
+todos
+[
+  {
+    "_id": "5d8ad9b88702a7133cceb5ad",
+    "text": "something todo",
+    "completed": false
+  },
+  {
+    "_id": "5d8ad9d58d2bf90680a6e95f",
+    "text": "something todo",
+    "completed": false
+  },
+  {
+    "_id": "5d8adaa4077d8716dcb2d4a4",
+    "text": "something todo",
+    "completed": false
+  },
+  {
+    "_id": "5d8adb51e0820a17280cf083",
+    "text": "something todo",
+    "completed": false
+  },
+  {
+    "_id": "5d8adbab2135fc14d4bafc7f",
+    "text": "something todo",
+    "completed": false
+  },
+  {
+    "_id": "5d8ae4e72879c90bc866f8c5",
+    "text": "something todo",
+    "completed": false
+  },
+  {
+    "_id": "5d9bb1b18fd67b0cc86df712",
+    "assignment": "Go to Market",
+    "Date": "20-10-2019",
+    "time": "1300:GMT"
+  },
+  {
+    "_id": "5d9bb278cf4df60788744dcd",
+    "assignment": "Go to Market",
+    "Date": "20-10-2019",
+    "time": "1300:GMT"
+  }
+]
+users
+[
+  {
+    "_id": "5d9bb1b18fd67b0cc86df713",
+    "name": "Math Fred",
+    "age": 25,
+    "email": "yandex@hotmail.com",
+    "phone": 2348062623523,
+    "Address": "No 12 olosasa Compound omoda Ilorin"
+  }
+]
+users
+[
+  {
+    "_id": "5d8adb51e0820a17280cf084",
+    "name": "Abdul Malik",
+    "age": 25,
+    "location": "No 12 Owode Close Oloje ilorin"
+  }
+]
+users count: 7
+TestDb
+[
+  {
+    "_id": "5d9b9bda7f9f1a3f80a10fa8",
+    "greetings": "hello World"
+  }
+]
+
+C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\playground>node mongodb-read.js
+(node:11632) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Connected Sucessfully
+todos
+[
+  {
+    "_id": "5d8ad9b88702a7133cceb5ad",
+    "text": "something todo",
+    "completed": false
+  },
+  {
+    "_id": "5d8ad9d58d2bf90680a6e95f",
+    "text": "something todo",
+    "completed": true
+  },
+  {
+    "_id": "5d8adaa4077d8716dcb2d4a4",
+    "text": "something todo",
+    "completed": false
+  },
+  {
+    "_id": "5d8adb51e0820a17280cf083",
+    "text": "something todo",
+    "completed": true
+  },
+  {
+    "_id": "5d8adbab2135fc14d4bafc7f",
+    "text": "something todo",
+    "completed": true
+  },
+  {
+    "_id": "5d8ae4e72879c90bc866f8c5",
+    "text": "something todo",
+    "completed": false
+  },
+  {
+    "_id": "5d9bb1b18fd67b0cc86df712",
+    "assignment": "Go to Market",
+    "Date": "20-10-2019",
+    "time": "1300:GMT"
+  },
+  {
+    "_id": "5d9bb278cf4df60788744dcd",
+    "assignment": "Go to Market",
+    "Date": "20-10-2019",
+    "time": "1300:GMT"
+  }
+]
+users
+[
+  {
+    "_id": "5d9bb1b18fd67b0cc86df713",
+    "name": "Math Fred",
+    "age": 25,
+    "email": "yandex@hotmail.com",
+    "phone": 2348062623523,
+    "Address": "No 12 olosasa Compound omoda Ilorin"
+  }
+]
+users
+[
+  {
+    "_id": "5d8adb51e0820a17280cf084",
+    "name": "Abdul Malik",
+    "age": 25,
+    "location": "No 12 Owode Close Oloje ilorin"
+  }
+]
+users count: 7
+TestDb
+[
+  {
+    "_id": "5d9b9bda7f9f1a3f80a10fa8",
+    "greetings": "hello World"
+  }
+]
+
+C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\playground>node mongodb-delete.js
+(node:15944) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Connected Sucessfully
+CommandResult {
+  result: { n: 3, ok: 1 },
+  connection:
+   Connection {
+     _events:
+      [Object: null prototype] {
+        error: [Function],
+        close: [Function],
+        timeout: [Function],
+        parseError: [Function],
+        message: [Function] },
+     _eventsCount: 5,
+     _maxListeners: undefined,
+     id: 0,
+     options:
+      { host: 'localhost',
+        port: 27017,
+        size: 5,
+        minSize: 0,
+        connectionTimeout: 30000,
+        socketTimeout: 360000,
+        keepAlive: true,
+        keepAliveInitialDelay: 300000,
+        noDelay: true,
+        ssl: false,
+        checkServerIdentity: true,
+        ca: null,
+        crl: null,
+        cert: null,
+        key: null,
+        passPhrase: null,
+        rejectUnauthorized: false,
+        promoteLongs: true,
+        promoteValues: true,
+        promoteBuffers: false,
+        reconnect: true,
+        reconnectInterval: 1000,
+        reconnectTries: 30,
+        domainsEnabled: false,
+        disconnectHandler: [Store],
+        cursorFactory: [Function: Cursor],
+        emitError: true,
+        monitorCommands: false,
+        promiseLibrary: [Function: Promise],
+        clientInfo: [Object],
+        servers: [Array],
+        caseTranslate: true,
+        useNewUrlParser: true,
+        socketTimeoutMS: 360000,
+        connectTimeoutMS: 30000,
+        retryWrites: true,
+        useRecoveryToken: true,
+        bson: BSON {} },
+     logger: Logger { className: 'Connection' },
+     bson: BSON {},
+     tag: undefined,
+     maxBsonMessageSize: 67108864,
+     port: 27017,
+     host: 'localhost',
+     socketTimeout: 360000,
+     keepAlive: true,
+     keepAliveInitialDelay: 300000,
+     connectionTimeout: 30000,
+     responseOptions:
+      { promoteLongs: true,
+        promoteValues: true,
+        promoteBuffers: false },
+     flushing: false,
+     queue: [],
+     writeStream: null,
+     destroyed: false,
+     hashedName: '29bafad3b32b11dc7ce934204952515ea5984b3c',
+     workItems: [ [Object] ],
+     socket:
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: [TCP],
+        _parent: null,
+        _host: 'localhost',
+        _readableState: [ReadableState],
+        readable: true,
+        _events: [Object],
+        _eventsCount: 5,
+        _maxListeners: undefined,
+        _writableState: [WritableState],
+        writable: true,
+        allowHalfOpen: false,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: null,
+        _server: null,
+        timeout: 360000,
+        [Symbol(asyncId)]: 14,
+        [Symbol(lastWriteQueueSize)]: 0,
+        [Symbol(timeout)]:
+         Timeout {
+           _called: false,
+           _idleTimeout: 360000,
+           _idlePrev: [TimersList],
+           _idleNext: [TimersList],
+           _idleStart: 1695,
+           _onTimeout: [Function: bound ],
+           _timerArgs: undefined,
+           _repeat: null,
+           _destroyed: false,
+           [Symbol(unrefed)]: true,
+           [Symbol(asyncId)]: 24,
+           [Symbol(triggerId)]: 14 },
+        [Symbol(kBytesRead)]: 0,
+        [Symbol(kBytesWritten)]: 0 },
+     buffer: null,
+     sizeOfMessage: 0,
+     bytesRead: 0,
+     stubBuffer: null,
+     ismaster:
+      { ismaster: true,
+        maxBsonObjectSize: 16777216,
+        maxMessageSizeBytes: 48000000,
+        maxWriteBatchSize: 100000,
+        localTime: 2019-10-07T18:45:05.033Z,
+        logicalSessionTimeoutMinutes: 30,
+        connectionId: 13,
+        minWireVersion: 0,
+        maxWireVersion: 8,
+        readOnly: false,
+        ok: 1 },
+     lastIsMasterMS: 30 },
+  message:
+   BinMsg {
+     parsed: true,
+     raw:
+      <Buffer 2d 00 00 00 7e 02 00 00 01 00 00 00 dd 07 00 00 00 00 00 00 00 18 00 00 00 10 6e 00 03 00 00 00 01 6f 6b 00 00 00 00 00 00 00 f0 3f 00>,
+     data:
+      <Buffer 00 00 00 00 00 18 00 00 00 10 6e 00 03 00 00 00 01 6f 6b 00 00 00 00 00 00 00 f0 3f 00>,
+     bson: BSON {},
+     opts:
+      { promoteLongs: true,
+        promoteValues: true,
+        promoteBuffers: false },
+     length: 45,
+     requestId: 638,
+     responseTo: 1,
+     opCode: 2013,
+     fromCompressed: undefined,
+     responseFlags: 0,
+     checksumPresent: false,
+     moreToCome: false,
+     exhaustAllowed: false,
+     promoteLongs: true,
+     promoteValues: true,
+     promoteBuffers: false,
+     documents: [ [Object] ],
+     index: 29,
+     hashedName: '29bafad3b32b11dc7ce934204952515ea5984b3c' },
+  deletedCount: 3 }
+
+C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\playground>node mongodb-delete.js
+(node:16184) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Connected Sucessfully
+CommandResult {
+  result: { n: 0, ok: 1 },
+  connection:
+   Connection {
+     _events:
+      [Object: null prototype] {
+        error: [Function],
+        close: [Function],
+        timeout: [Function],
+        parseError: [Function],
+        message: [Function] },
+     _eventsCount: 5,
+     _maxListeners: undefined,
+     id: 0,
+     options:
+      { host: 'localhost',
+        port: 27017,
+        size: 5,
+        minSize: 0,
+        connectionTimeout: 30000,
+        socketTimeout: 360000,
+        keepAlive: true,
+        keepAliveInitialDelay: 300000,
+        noDelay: true,
+        ssl: false,
+        checkServerIdentity: true,
+        ca: null,
+        crl: null,
+        cert: null,
+        key: null,
+        passPhrase: null,
+        rejectUnauthorized: false,
+        promoteLongs: true,
+        promoteValues: true,
+        promoteBuffers: false,
+        reconnect: true,
+        reconnectInterval: 1000,
+        reconnectTries: 30,
+        domainsEnabled: false,
+        disconnectHandler: [Store],
+        cursorFactory: [Function: Cursor],
+        emitError: true,
+        monitorCommands: false,
+        promiseLibrary: [Function: Promise],
+        clientInfo: [Object],
+        servers: [Array],
+        caseTranslate: true,
+        useNewUrlParser: true,
+        socketTimeoutMS: 360000,
+        connectTimeoutMS: 30000,
+        retryWrites: true,
+        useRecoveryToken: true,
+        bson: BSON {} },
+     logger: Logger { className: 'Connection' },
+     bson: BSON {},
+     tag: undefined,
+     maxBsonMessageSize: 67108864,
+     port: 27017,
+     host: 'localhost',
+     socketTimeout: 360000,
+     keepAlive: true,
+     keepAliveInitialDelay: 300000,
+     connectionTimeout: 30000,
+     responseOptions:
+      { promoteLongs: true,
+        promoteValues: true,
+        promoteBuffers: false },
+     flushing: false,
+     queue: [],
+     writeStream: null,
+     destroyed: false,
+     hashedName: '29bafad3b32b11dc7ce934204952515ea5984b3c',
+     workItems: [ [Object] ],
+     socket:
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: [TCP],
+        _parent: null,
+        _host: 'localhost',
+        _readableState: [ReadableState],
+        readable: true,
+        _events: [Object],
+        _eventsCount: 5,
+        _maxListeners: undefined,
+        _writableState: [WritableState],
+        writable: true,
+        allowHalfOpen: false,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: null,
+        _server: null,
+        timeout: 360000,
+        [Symbol(asyncId)]: 14,
+        [Symbol(lastWriteQueueSize)]: 0,
+        [Symbol(timeout)]:
+         Timeout {
+           _called: false,
+           _idleTimeout: 360000,
+           _idlePrev: [TimersList],
+           _idleNext: [TimersList],
+           _idleStart: 1672,
+           _onTimeout: [Function: bound ],
+           _timerArgs: undefined,
+           _repeat: null,
+           _destroyed: false,
+           [Symbol(unrefed)]: true,
+           [Symbol(asyncId)]: 24,
+           [Symbol(triggerId)]: 14 },
+        [Symbol(kBytesRead)]: 0,
+        [Symbol(kBytesWritten)]: 0 },
+     buffer: null,
+     sizeOfMessage: 0,
+     bytesRead: 0,
+     stubBuffer: null,
+     ismaster:
+      { ismaster: true,
+        maxBsonObjectSize: 16777216,
+        maxMessageSizeBytes: 48000000,
+        maxWriteBatchSize: 100000,
+        localTime: 2019-10-07T18:53:39.683Z,
+        logicalSessionTimeoutMinutes: 30,
+        connectionId: 17,
+        minWireVersion: 0,
+        maxWireVersion: 8,
+        readOnly: false,
+        ok: 1 },
+     lastIsMasterMS: 30 },
+  message:
+   BinMsg {
+     parsed: true,
+     raw:
+      <Buffer 2d 00 00 00 d4 02 00 00 01 00 00 00 dd 07 00 00 00 00 00 00 00 18 00 00 00 10 6e 00 00 00 00 00 01 6f 6b 00 00 00 00 00 00 00 f0 3f 00>,
+     data:
+      <Buffer 00 00 00 00 00 18 00 00 00 10 6e 00 00 00 00 00 01 6f 6b 00 00 00 00 00 00 00 f0 3f 00>,
+     bson: BSON {},
+     opts:
+      { promoteLongs: true,
+        promoteValues: true,
+        promoteBuffers: false },
+     length: 45,
+     requestId: 724,
+     responseTo: 1,
+     opCode: 2013,
+     fromCompressed: undefined,
+     responseFlags: 0,
+     checksumPresent: false,
+     moreToCome: false,
+     exhaustAllowed: false,
+     promoteLongs: true,
+     promoteValues: true,
+     promoteBuffers: false,
+     documents: [ [Object] ],
+     index: 29,
+     hashedName: '29bafad3b32b11dc7ce934204952515ea5984b3c' },
+  deletedCount: 0 }
+
+C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\playground>node mongodb-delete.js
+(node:16292) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Connected Sucessfully
+CommandResult {
+  result: { n: 1, ok: 1 },
+  connection:
+   Connection {
+     _events:
+      [Object: null prototype] {
+        error: [Function],
+        close: [Function],
+        timeout: [Function],
+        parseError: [Function],
+        message: [Function] },
+     _eventsCount: 5,
+     _maxListeners: undefined,
+     id: 0,
+     options:
+      { host: 'localhost',
+        port: 27017,
+        size: 5,
+        minSize: 0,
+        connectionTimeout: 30000,
+        socketTimeout: 360000,
+        keepAlive: true,
+        keepAliveInitialDelay: 300000,
+        noDelay: true,
+        ssl: false,
+        checkServerIdentity: true,
+        ca: null,
+        crl: null,
+        cert: null,
+        key: null,
+        passPhrase: null,
+        rejectUnauthorized: false,
+        promoteLongs: true,
+        promoteValues: true,
+        promoteBuffers: false,
+        reconnect: true,
+        reconnectInterval: 1000,
+        reconnectTries: 30,
+        domainsEnabled: false,
+        disconnectHandler: [Store],
+        cursorFactory: [Function: Cursor],
+        emitError: true,
+        monitorCommands: false,
+        promiseLibrary: [Function: Promise],
+        clientInfo: [Object],
+        servers: [Array],
+        caseTranslate: true,
+        useNewUrlParser: true,
+        socketTimeoutMS: 360000,
+        connectTimeoutMS: 30000,
+        retryWrites: true,
+        useRecoveryToken: true,
+        bson: BSON {} },
+     logger: Logger { className: 'Connection' },
+     bson: BSON {},
+     tag: undefined,
+     maxBsonMessageSize: 67108864,
+     port: 27017,
+     host: 'localhost',
+     socketTimeout: 360000,
+     keepAlive: true,
+     keepAliveInitialDelay: 300000,
+     connectionTimeout: 30000,
+     responseOptions:
+      { promoteLongs: true,
+        promoteValues: true,
+        promoteBuffers: false },
+     flushing: false,
+     queue: [],
+     writeStream: null,
+     destroyed: false,
+     hashedName: '29bafad3b32b11dc7ce934204952515ea5984b3c',
+     workItems: [ [Object] ],
+     socket:
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: [TCP],
+        _parent: null,
+        _host: 'localhost',
+        _readableState: [ReadableState],
+        readable: true,
+        _events: [Object],
+        _eventsCount: 5,
+        _maxListeners: undefined,
+        _writableState: [WritableState],
+        writable: true,
+        allowHalfOpen: false,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: null,
+        _server: null,
+        timeout: 360000,
+        [Symbol(asyncId)]: 14,
+        [Symbol(lastWriteQueueSize)]: 0,
+        [Symbol(timeout)]:
+         Timeout {
+           _called: false,
+           _idleTimeout: 360000,
+           _idlePrev: [TimersList],
+           _idleNext: [TimersList],
+           _idleStart: 1675,
+           _onTimeout: [Function: bound ],
+           _timerArgs: undefined,
+           _repeat: null,
+           _destroyed: false,
+           [Symbol(unrefed)]: true,
+           [Symbol(asyncId)]: 24,
+           [Symbol(triggerId)]: 14 },
+        [Symbol(kBytesRead)]: 0,
+        [Symbol(kBytesWritten)]: 0 },
+     buffer: null,
+     sizeOfMessage: 0,
+     bytesRead: 0,
+     stubBuffer: null,
+     ismaster:
+      { ismaster: true,
+        maxBsonObjectSize: 16777216,
+        maxMessageSizeBytes: 48000000,
+        maxWriteBatchSize: 100000,
+        localTime: 2019-10-07T18:55:06.029Z,
+        logicalSessionTimeoutMinutes: 30,
+        connectionId: 18,
+        minWireVersion: 0,
+        maxWireVersion: 8,
+        readOnly: false,
+        ok: 1 },
+     lastIsMasterMS: 30 },
+  message:
+   BinMsg {
+     parsed: true,
+     raw:
+      <Buffer 2d 00 00 00 ec 02 00 00 01 00 00 00 dd 07 00 00 00 00 00 00 00 18 00 00 00 10 6e 00 01 00 00 00 01 6f 6b 00 00 00 00 00 00 00 f0 3f 00>,
+     data:
+      <Buffer 00 00 00 00 00 18 00 00 00 10 6e 00 01 00 00 00 01 6f 6b 00 00 00 00 00 00 00 f0 3f 00>,
+     bson: BSON {},
+     opts:
+      { promoteLongs: true,
+        promoteValues: true,
+        promoteBuffers: false },
+     length: 45,
+     requestId: 748,
+     responseTo: 1,
+     opCode: 2013,
+     fromCompressed: undefined,
+     responseFlags: 0,
+     checksumPresent: false,
+     moreToCome: false,
+     exhaustAllowed: false,
+     promoteLongs: true,
+     promoteValues: true,
+     promoteBuffers: false,
+     documents: [ [Object] ],
+     index: 29,
+     hashedName: '29bafad3b32b11dc7ce934204952515ea5984b3c' },
+  deletedCount: 1 }
+
+C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\playground>node mongodb-delete.js
+(node:17108) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Connected Sucessfully
+CommandResult {
+  result: { n: 1, ok: 1 },
+  connection:
+   Connection {
+     _events:
+      [Object: null prototype] {
+        error: [Function],
+        close: [Function],
+        timeout: [Function],
+        parseError: [Function],
+        message: [Function] },
+     _eventsCount: 5,
+     _maxListeners: undefined,
+     id: 0,
+     options:
+      { host: 'localhost',
+        port: 27017,
+        size: 5,
+        minSize: 0,
+        connectionTimeout: 30000,
+        socketTimeout: 360000,
+        keepAlive: true,
+        keepAliveInitialDelay: 300000,
+        noDelay: true,
+        ssl: false,
+        checkServerIdentity: true,
+        ca: null,
+        crl: null,
+        cert: null,
+        key: null,
+        passPhrase: null,
+        rejectUnauthorized: false,
+        promoteLongs: true,
+        promoteValues: true,
+        promoteBuffers: false,
+        reconnect: true,
+        reconnectInterval: 1000,
+        reconnectTries: 30,
+        domainsEnabled: false,
+        disconnectHandler: [Store],
+        cursorFactory: [Function: Cursor],
+        emitError: true,
+        monitorCommands: false,
+        promiseLibrary: [Function: Promise],
+        clientInfo: [Object],
+        servers: [Array],
+        caseTranslate: true,
+        useNewUrlParser: true,
+        socketTimeoutMS: 360000,
+        connectTimeoutMS: 30000,
+        retryWrites: true,
+        useRecoveryToken: true,
+        bson: BSON {} },
+     logger: Logger { className: 'Connection' },
+     bson: BSON {},
+     tag: undefined,
+     maxBsonMessageSize: 67108864,
+     port: 27017,
+     host: 'localhost',
+     socketTimeout: 360000,
+     keepAlive: true,
+     keepAliveInitialDelay: 300000,
+     connectionTimeout: 30000,
+     responseOptions:
+      { promoteLongs: true,
+        promoteValues: true,
+        promoteBuffers: false },
+     flushing: false,
+     queue: [],
+     writeStream: null,
+     destroyed: false,
+     hashedName: '29bafad3b32b11dc7ce934204952515ea5984b3c',
+     workItems: [ [Object] ],
+     socket:
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: [TCP],
+        _parent: null,
+        _host: 'localhost',
+        _readableState: [ReadableState],
+        readable: true,
+        _events: [Object],
+        _eventsCount: 5,
+        _maxListeners: undefined,
+        _writableState: [WritableState],
+        writable: true,
+        allowHalfOpen: false,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: null,
+        _server: null,
+        timeout: 360000,
+        [Symbol(asyncId)]: 14,
+        [Symbol(lastWriteQueueSize)]: 0,
+        [Symbol(timeout)]:
+         Timeout {
+           _called: false,
+           _idleTimeout: 360000,
+           _idlePrev: [TimersList],
+           _idleNext: [TimersList],
+           _idleStart: 1682,
+           _onTimeout: [Function: bound ],
+           _timerArgs: undefined,
+           _repeat: null,
+           _destroyed: false,
+           [Symbol(unrefed)]: true,
+           [Symbol(asyncId)]: 24,
+           [Symbol(triggerId)]: 14 },
+        [Symbol(kBytesRead)]: 0,
+        [Symbol(kBytesWritten)]: 0 },
+     buffer: null,
+     sizeOfMessage: 0,
+     bytesRead: 0,
+     stubBuffer: null,
+     ismaster:
+      { ismaster: true,
+        maxBsonObjectSize: 16777216,
+        maxMessageSizeBytes: 48000000,
+        maxWriteBatchSize: 100000,
+        localTime: 2019-10-07T18:57:02.761Z,
+        logicalSessionTimeoutMinutes: 30,
+        connectionId: 19,
+        minWireVersion: 0,
+        maxWireVersion: 8,
+        readOnly: false,
+        ok: 1 },
+     lastIsMasterMS: 26 },
+  message:
+   BinMsg {
+     parsed: true,
+     raw:
+      <Buffer 2d 00 00 00 ff 02 00 00 01 00 00 00 dd 07 00 00 00 00 00 00 00 18 00 00 00 10 6e 00 01 00 00 00 01 6f 6b 00 00 00 00 00 00 00 f0 3f 00>,
+     data:
+      <Buffer 00 00 00 00 00 18 00 00 00 10 6e 00 01 00 00 00 01 6f 6b 00 00 00 00 00 00 00 f0 3f 00>,
+     bson: BSON {},
+     opts:
+      { promoteLongs: true,
+        promoteValues: true,
+        promoteBuffers: false },
+     length: 45,
+     requestId: 767,
+     responseTo: 1,
+     opCode: 2013,
+     fromCompressed: undefined,
+     responseFlags: 0,
+     checksumPresent: false,
+     moreToCome: false,
+     exhaustAllowed: false,
+     promoteLongs: true,
+     promoteValues: true,
+     promoteBuffers: false,
+     documents: [ [Object] ],
+     index: 29,
+     hashedName: '29bafad3b32b11dc7ce934204952515ea5984b3c' },
+  deletedCount: 1 }
+
+C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\playground>node mongodb-delete.js
+(node:3636) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Connected Sucessfully
+{ lastErrorObject: { n: 1 },
+  value:
+   { _id: 5d8ad9b88702a7133cceb5ad,
+     text: 'something todo',
+     completed: false },
+  ok: 1 }
+
+C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\playground>node mongodb-update.js
+(node:16004) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Connected Sucessfully
+{ lastErrorObject: { n: 0, updatedExisting: false },
+  value: null,
+  ok: 1 }
+
+C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\playground>node mongodb-update.js
+(node:16932) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Connected Sucessfully
+{ lastErrorObject: { n: 1, updatedExisting: true },
+  value:
+   { _id: 5d8adbab2135fc14d4bafc80,
+     name: 'John Smith',
+     age: 25,
+     location: 'No 12 Owode Close Oloje ilorin' },
+  ok: 1 }
+
+C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\playground>node mongodb-update.js
+(node:16996) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Connected Sucessfully
+{ lastErrorObject: { n: 1, updatedExisting: true },
+  value:
+   { _id: 5d8adb51e0820a17280cf084,
+     name: 'Abdul Malik',
+     age: 25,
+     location: 'No 12 Owode Close Oloje ilorin' },
+  ok: 1 }
+
+C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\playground>node mongodb-update.js
+(node:16768) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Connected Sucessfully
+{ lastErrorObject: { n: 1, updatedExisting: true },
+  value:
+   { _id: 5d8adb51e0820a17280cf084,
+     name: 'AbdulRazak Atunwa',
+     age: 35,
+     location: 'No 12 Owode Close Oloje ilorin' },
+  ok: 1 }
+
+C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\playground>
+
+
+C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\server>node server.js
+C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\server\server.js:19
+myModel.save().then((doc)=>{
+        ^
+
+TypeError: myModel.save is not a function
+    at Object.<anonymous> (C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\server\server.js:19:9)
+    at Module._compile (internal/modules/cjs/loader.js:776:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:829:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+
+C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\server>node server.js
+C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\server\server.js:19
+courses.save().then((doc)=>{
+^
+
+ReferenceError: courses is not defined
+    at Object.<anonymous> (C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\server\server.js:19:1)
+    at Module._compile (internal/modules/cjs/loader.js:776:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:829:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+
+C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\server>node server.js
+C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\server\server.js:19
+myModel.save().then((doc)=>{
+        ^
+
+TypeError: myModel.save is not a function
+    at Object.<anonymous> (C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\server\server.js:19:9)
+    at Module._compile (internal/modules/cjs/loader.js:776:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:829:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+
+C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\server>node server.js
+C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\server\server.js:19
+myModel.save(function (error) {
+        ^
+
+TypeError: myModel.save is not a function
+    at Object.<anonymous> (C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\server\server.js:19:9)
+    at Module._compile (internal/modules/cjs/loader.js:776:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:829:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+
+C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\server>node server.js
+C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\server\server.js:19
+myModel.save(function (error, myModel, [isSaveSuccessful]) {
+        ^
+
+TypeError: myModel.save is not a function
+    at Object.<anonymous> (C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\server\server.js:19:9)
+    at Module._compile (internal/modules/cjs/loader.js:776:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:829:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+
+C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\server>node server.js
+C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\server\server.js:19
+courses.save(function (error, courses, [isSaveSuccessful]) {
+^
+
+ReferenceError: courses is not defined
+    at Object.<anonymous> (C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\server\server.js:19:1)
+    at Module._compile (internal/modules/cjs/loader.js:776:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:829:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+
+C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\server>node server.js
+(node:452) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+saved Sucessfully
+^C
+C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\server>node server.js
+internal/modules/cjs/loader.js:638
+    throw err;
+    ^
+
+Error: Cannot find module 'C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\server\server.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:829:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+
+C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\server>node mongoose-create.js
+(node:212) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Saved Data { _id: 5d9bc6388b224300d4be76e9,
+  language: 'PHP',
+  duration: '25 Days',
+  rating: 4.27,
+  certified: true,
+  date: 2019-10-07T23:11:52.734Z,
+  __v: 0 }
+^C
+C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\server>node mongoose-create.js
+(node:2796) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Saved Data { _id: 5d9bc7776884820aece4849d,
+  language: 'PHP',
+  duration: '25 Days',
+  rating: 4.27,
+  certified: true,
+  date: 2019-10-07T23:17:11.421Z,
+  __v: 0 }
+^C
+C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\server>node mongoose-create.js
+(node:4276) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Saved Data { _id: 5d9bc794bf3a0f10b4c9293c,
+  language: 'PHP',
+  duration: '25 Days',
+  rating: 4.27,
+  certified: true,
+  date: 2019-10-07T23:17:40.982Z,
+  __v: 0 }
+^C
+C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\server>node mongoose-create.js
+C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\server\mongoose-create.js:51
+course.save().then((doc)=>{
+^
+
+ReferenceError: course is not defined
+    at Object.<anonymous> (C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\server\mongoose-create.js:51:1)
+    at Module._compile (internal/modules/cjs/loader.js:776:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:829:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+
+C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\server>node mongoose-create.js
+(node:360) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Saved Data { _id: 5d9bc8efe758d1016848291a,
+  language: 'MYSQL',
+  duration: '25 Days',
+  rating: 4.27,
+  certified: true,
+  date: 2019-10-07T23:23:27.417Z,
+  __v: 0 }
+Saved Data { _id: 5d9bc8efe758d1016848291b,
+  language: 'Swift',
+  duration: '40 Days',
+  rating: 4,
+  certified: true,
+  date: 2019-10-07T23:23:27.419Z,
+  __v: 0 }
+Saved Data { _id: 5d9bc8efe758d1016848291c,
+  language: 'SQL',
+  duration: '30 Days',
+  rating: 4.3,
+  certified: true,
+  date: 2019-10-07T23:23:27.419Z,
+  __v: 0 }
+Saved Data { _id: 5d9bc8efe758d1016848291d,
+  language: 'C#',
+  duration: '45 Days',
+  rating: 4.5,
+  certified: true,
+  date: 2019-10-07T23:23:27.419Z,
+  __v: 0 }
+^C
+C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\server>node mongoose-create.js
+C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\server\mongoose-create.js:15
+  rating: {type: Double},
+                 ^
+
+ReferenceError: Double is not defined
+    at Object.<anonymous> (C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\server\mongoose-create.js:15:18)
+    at Module._compile (internal/modules/cjs/loader.js:776:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:829:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+
+C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\server>node mongoose-create.js
+C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\server\mongoose-create.js:15
+  rating: {type: Float},
+                 ^
+
+ReferenceError: Float is not defined
+    at Object.<anonymous> (C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\server\mongoose-create.js:15:18)
+    at Module._compile (internal/modules/cjs/loader.js:776:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:829:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+
+C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\server>node mongoose-create.js
+C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\server\mongoose-create.js:15
+  rating: {type: double},
+                 ^
+
+ReferenceError: double is not defined
+    at Object.<anonymous> (C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\server\mongoose-create.js:15:18)
+    at Module._compile (internal/modules/cjs/loader.js:776:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:829:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+
+C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\server>node mongoose-create.js
+C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\server\mongoose-create.js:15
+  rating: {type: Integer},
+                 ^
+
+ReferenceError: Integer is not defined
+    at Object.<anonymous> (C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\server\mongoose-create.js:15:18)
+    at Module._compile (internal/modules/cjs/loader.js:776:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:829:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+
+C:\Users\Techietherapy\Documents\node_project\MongoDB,_Mongoose_ REST APIs\server>node mongoose-create.js
+(node:3560) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Saved Data { _id: 5d9bcb4fe4a1b10de85be82c,
+  language: '.NetCore',
+  duration: '25 Days',
+  rating: 4.27,
+  certified: true,
+  date: 2019-10-07T23:33:35.104Z,
+  __v: 0 }
+Saved Data { _id: 5d9bcb4fe4a1b10de85be82d,
+  language: 'Javascript',
+  duration: '40 Days',
+  rating: 4,
+  certified: true,
+  date: 2019-10-07T23:33:35.106Z,
+  __v: 0 }
+Saved Data { _id: 5d9bcb4fe4a1b10de85be82e,
+  language: 'HTML',
+  duration: '20 Days',
+  rating: 4.3,
+  certified: true,
+  date: 2019-10-07T23:33:35.106Z,
+  __v: 0 }
+Saved Data { _id: 5d9bcb4fe4a1b10de85be82f,
+  language: 'Advance Css',
+  duration: '45 Days',
+  rating: 4.5,
+  certified: true,
+  date: 2019-10-07T23:33:35.106Z,
+  __v: 0 }

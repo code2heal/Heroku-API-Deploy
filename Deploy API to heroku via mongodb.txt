@@ -1,0 +1,52 @@
+
+open package.json and add these lines:
+
+inside the "scripts":{
+}
+
+add these:
+"start": "node server/mongodb-heroku.js",    This is the server file that heroku will use to setup the API
+
+above the "author":{ };
+
+add these:...
+"engines":{
+"node": "10.16.0"......[version of the current node being used]
+},
+
+
+setup database with heroku addons
+
+go to heroku
+click any of your apps
+under installed addons,
+click on configure addons
+on the displayed various addons, click any of the mongoDb addons e.g mLAb MongoDB
+read the docs to understand how they work
+back to your node terminal cd back to the root directory of your project
+e.g C:\Users\Techietherapy\Documents\node_classes\MongoDB,_Mongoose_ REST APIs
+run "heroku Create"
+run "heroku addons:create mongolab:sandbox"
+explained as thus:
+heroku.....on heroku server
+addons...... on the addons directory
+:create.......create an addons called
+mongolab...... called mongolab
+:sandbox....... on a plan called sandbox
+
+run "heroku config"... to confirm configurations on the app and note down the MONGODB_URI(serverAddress) of the addons
+now edit mongoose_connect.js to connect to the above MONGODB server as in:
+mongoose_connect_local_or_heroku.js
+
+on the terminal, add the changes and commit those changes
+push the app to to git by running "git push"
+push the app to heroku by running "git push heroku master"
+to get log errors as heroku pushes the data up the server run "heroku logs" ..[copy and search for error message in case you ahve problem]
+run "heroku open" OR copy the url after running "heroku push"
+then paste it unto the browser e.g jhuhhhhhjhhhrfhjhoih/details
+copy the above URL and paste it unto postman and then POST some data
+repeat the above with GET data to get the posted data back
+
+
+
+MONGODB_URI: mongodb://heroku_jvs3khjz:q9in2216tfv47nq6iat1e5vm3a@ds061391.mlab.com:61391/heroku_jvs3khjz

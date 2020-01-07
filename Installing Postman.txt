@@ -1,0 +1,8 @@
+go to goolge, search for postman
+read the docs, then try installing the app
+signup if you wish, Or skip the signup processes and dive into the app console
+Under the methods call, ensure you choose GET. then under the postman search bar, type 'an address e.g google.com'
+onn google api search for your favourite address using this api key "&key=AIzaSyDL9_akAubsJl3sKchj4KcETXsTT6U-MM0"
+now copy that url
+paste the url into postman's address bar and search to view the output e.g
+https://maps.googleapis.com/maps/api/geocode/json?address=uith%20ilorin&key=AIzaSyDL9_akAubsJl3sKchj4KcETXsTT6U-MM0
