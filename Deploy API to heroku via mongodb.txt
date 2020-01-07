@@ -14,7 +14,7 @@ add these:...
 "node": "10.16.0"......[version of the current node being used]
 },
 
-
+OLd Method
 setup database with heroku addons
 
 go to heroku
@@ -50,3 +50,50 @@ repeat the above with GET data to get the posted data back
 
 
 MONGODB_URI: mongodb://heroku_jvs3khjz:q9in2216tfv47nq6iat1e5vm3a@ds061391.mlab.com:61391/heroku_jvs3khjz
+
+
+
+
+
+New Method
+Open You project
+Shift + right click ------>open with either gitbash or CMD
+Then proceed as thus:
+$ git init
+Initialized empty Git repository in .git/
+
+$ heroku login
+
+$ heroku create  (create a remote app to hold your repo)
+Creating app... done, ? thawing-inlet-61413
+https://thawing-inlet-61413.herokuapp.com/ | https://git.heroku.com/thawing-inlet-61413.git
+
+open your heroku account, select it then-----> configure Addons----->mlab MongoDB tonread the docs
+
+$ heroku addons:create mongolab:sandbox   (Create this db Addons on the remote app created above)
+
+$ heroku config   (To view Configurations History)
+
+$ git remote -v    (List all remote apps)
+heroku  https://git.heroku.com/thawing-inlet-61413.git (fetch)
+heroku  https://git.heroku.com/thawing-inlet-61413.git (push)
+
+$ heroku git:remote -a thawing-inlet-61413      (Use git to bind to any of your remote App)
+
+$ git status    (do all necessary things)
+$ git add .
+$ git commit -m "My first commit"
+
+
+if you want   (You Can rename your remote app, Which was Named on a default)
+$ git remote rename heroku heroku-staging
+
+
+$ git push heroku master
+
+$ heroku logs     (To see the logs for progress or problems)
+
+You can Copy the generated URL and paste on your browser
+OR
+
+$ heroku open to open the inks on the browser
