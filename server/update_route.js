@@ -106,7 +106,7 @@ app.patch('/details/:id', (req, res)=>{
     return res.status(404).send(); // Only proceed unless this is executed (return) set the status error to 404 And send and Empty response;
   }
 
-  //Custom Check Not Really Necesary
+  //Custom Check Not Really Neccesary
 // if (_.isNumber(body.age)) {
 //   body.age = new Date().getTime();
 // } else{

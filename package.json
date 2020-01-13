@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node server/mongodb-heroku.js",
+    "start": "node server/update_route.js",
     "test": "mocha  server/**/*.test.js",
     "test-watch": "nodemon --exec \"npm test\""
   },
