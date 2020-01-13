@@ -88,7 +88,7 @@ app.delete('/details/:id', (req, res)=>{
       return res.status(404).send();
     }
     //Else
-    res.send(details);
+    res.send({details});
   }).catch((e)=>{
     res.status(400).send();
   });
