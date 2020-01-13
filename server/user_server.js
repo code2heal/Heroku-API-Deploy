@@ -21,7 +21,7 @@ app.post('/details', (req, res) =>{
 
   var users = new studentDetails({
       //requesting the text content of the body
-      firstname: req.body.firstname,
+    firstname: req.body.firstname,
     lastname: req.body.lastname,
     age: req.body.age,
     phone_number: req.body.phone_number,
